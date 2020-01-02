@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-
 class piece():
     def __init__(self, name, characteristics):
         self.name = str(''.join(characteristics))
@@ -189,9 +186,6 @@ def main():
         if checkWin != False: 
             print('Player one has won!')
             board_test.displayBoard()
-
-        
-
 
 if __name__ == '__main__':
     main()
