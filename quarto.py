@@ -139,23 +139,6 @@ def main():
                                  for l in colors]
     
     board_test = board(combinations)
-    # piece1 = board_test.remaining_pieces[0]
-    # piece2 = board_test.remaining_pieces[1]
-    # piece3 = board_test.remaining_pieces[2]
-    # piece4 = board_test.remaining_pieces[3]
-
-    # board_test.placePiece(piece1, [0, 0])
-    # board_test.displayBoard()
-    # board_test.placePiece(piece2, [1, 1])
-    # board_test.displayBoard()
-    # board_test.placePiece(piece3, [2, 2])
-    # board_test.displayBoard()
-    # board_test.placePiece(piece4, [3, 3])
-    # board_test.displayBoard()
-
-   
-    
-
     checkWin = False
 
     while(checkWin is False):
